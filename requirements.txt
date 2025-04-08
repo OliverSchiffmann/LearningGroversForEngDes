@@ -1,0 +1,9 @@
+# Combined Requirements for Grover Tiling Solver and Plotting Scripts
+# Generated on: 2025-04-08
+
+matplotlib>=3.5.0   # For creating plots (plotting script)
+numpy>=1.17         # Numerical operations (both scripts)
+openpyxl>=3.0       # Reading/Writing Excel files (both scripts)
+pandas>=1.0         # Data handling, Excel writing (Grover script)
+qiskit>=1.0.0       # Quantum computing framework (Grover script)
+qiskit-aer>=0.13.0  # Qiskit simulator (Grover script)
